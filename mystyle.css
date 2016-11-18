@@ -1,0 +1,237 @@
+#backgroundImage {
+    width:100%;
+    height:100%;
+}
+#backgroundImage:after {
+  content: url("images/background.png");
+}
+
+#sun {
+    position:absolute;
+    top:300px;
+    left:660px;
+    height: 25px;
+    width: 25px;
+    background-color:yellow;
+}
+
+#sun:after {
+    content: url("images/sun.png");
+}
+
+#mercury {
+    position:absolute;
+    top:300px;
+    left:660px;
+    height: 25px;
+    width: 25px;
+    background-color:red;
+    -webkit-animation: animateMercury 2s linear infinite;
+}
+
+#mercury:after {
+    content: url("images/mercury.png");
+}
+
+#venus {
+    position:absolute;
+    top:300px;
+    left:660px;
+    height: 25px;
+    width: 25px;
+    background-color:orange;
+    -webkit-animation: animateVenus 2.5s linear infinite;
+
+}
+
+#venus:after {
+    content: url("images/venus.jpg");
+}
+
+#earth {
+    position:absolute;
+    top:300px;
+    left:660px;
+    height: 25px;
+    width: 25px;
+    background-color:blue;
+    -webkit-animation: animateEarth 3.5s linear infinite;
+}
+
+#earth:after {
+    content: url("images/earth.png");
+}
+
+#mars {
+    position:absolute;
+    top:300px;
+    left:660px;
+    height: 25px;
+    width: 25px;
+    background-color:red;
+    -webkit-animation: animateMars 4s linear infinite;
+}
+
+#mars:after {
+    content: url("images/mars.png");
+}
+
+#jupiter {
+    position:absolute;
+    top:300px;
+    left:660px;
+    height: 25px;
+    width: 25px;
+    background-color:gray;
+    -webkit-animation: animateJupiter 4.5s linear infinite;
+}
+
+#jupiter:after {
+    content: url("images/jupiter.png");
+}
+
+#saturn {
+    position:absolute;
+    top:300px;
+    left:660px;
+    height: 25px;
+    width: 25px;
+    background-color:pink;
+    -webkit-animation: animateSaturn 5s linear infinite;
+}
+
+#saturn:after {
+    content: url("images/saturn.png");
+}
+
+#uranus {
+    position:absolute;
+    top:300px;
+    left:660px;
+    height: 25px;
+    width: 25px;
+    background-color:cyan;
+    -webkit-animation: animateUranus 5.5s linear infinite;
+}
+
+#uranus:after {
+    content: url("images/uranus.png");
+}
+
+#neptune {
+    position:absolute;
+    top:300px;
+    left:660px;
+    height: 25px;
+    width: 25px;
+    background-color:cyan;
+    -webkit-animation: animateNeptune 6s linear infinite;
+}
+
+#neptune:after {
+    content: url("images/neptune.png");
+}
+
+#pluto {
+    position:absolute;
+    top:300px;
+    left:660px;
+    height: 25px;
+    width: 25px;
+    background-color:black;
+    -webkit-animation: animatePluto 6.5s linear infinite;
+}
+
+#pluto:after {
+    content: url("images/pluto.png");
+}
+
+
+@-webkit-keyframes animateMercury {
+    0%  { -webkit-transform: rotate(0deg) translateX(40px) translateY(5px) rotate(0deg) scale(1); }
+    25%  { -webkit-transform: rotate(90deg) translateX(40px) translateY(5px) rotate(-90deg) scale(.75); }
+    50%  { -webkit-transform: rotate(180deg) translateX(40px) translateY(5px) rotate(-180deg) scale(.60); }
+    75%  { -webkit-transform: rotate(270deg) translateX(40px) translateY(5px) rotate(-270deg) scale(.75); }
+    100%  { -webkit-transform: rotate(360deg) translateX(40px) translateY(5px) rotate(-360deg) scale(1); }
+
+}
+
+@-webkit-keyframes animateVenus {
+    0%  { -webkit-transform: rotate(0deg) translateX(80px) translateY(10px) rotate(0deg) scale(1); }
+    25%  { -webkit-transform: rotate(90deg) translateX(80px) translateY(10px) rotate(-90deg) scale(.75); }
+    50%  { -webkit-transform: rotate(180deg) translateX(80px) translateY(10px) rotate(-180deg) scale(.60); }
+    75%  { -webkit-transform: rotate(270deg) translateX(80px) translateY(10px) rotate(-270deg) scale(.75); }
+    100%  { -webkit-transform: rotate(360deg) translateX(80px) translateY(10px) rotate(-360deg) scale(1); }
+
+}
+
+@-webkit-keyframes animateEarth {
+    0%  { -webkit-transform: rotate(0deg) translateX(120px) translateY(10px); }
+    2%  { -webkit-transform: rotate(7.2deg) translateX(120px) translateY(10px); }
+    12.5%  { -webkit-transform: rotate(45deg) translateX(100px) translateY(10px); }
+    25%  { -webkit-transform: rotate(90deg) translateX(90px) translateY(10px); }
+    37.5%  { -webkit-transform: rotate(135deg) translateX(100px) translateY(10px); }
+    48%  { -webkit-transform: rotate(172.8deg) translateX(120px) translateY(10px); }
+    50%  { -webkit-transform: rotate(180deg) translateX(120px) translateY(10px); }
+    52%  { -webkit-transform: rotate(187.2deg) translateX(120px) translateY(10px); }
+    62.5% { -webkit-transform: rotate(225deg) translateX(100px) translateY(10px); }
+    75%  { -webkit-transform: rotate(270deg) translateX(90px) translateY(10px); }
+    87.5% { -webkit-transform: rotate(315deg) translateX(100px) translateY(10px); }
+    98%  { -webkit-transform: rotate(352.8deg) translateX(120px) translateY(10px); }
+    100%  { -webkit-transform: rotate(360deg) translateX(120px) translateY(10px); }
+
+}
+
+@-webkit-keyframes animateMars {
+    0%  { -webkit-transform: rotate(0deg) translateX(160px) translateY(10px) rotate(0deg) scale(1); }
+    25%  { -webkit-transform: rotate(90deg) translateX(160px) translateY(10px) rotate(-90deg) scale(.75); }
+    50%  { -webkit-transform: rotate(180deg) translateX(160px) translateY(10px) rotate(-180deg) scale(.60); }
+    75%  { -webkit-transform: rotate(270deg) translateX(160px) translateY(10px) rotate(-270deg) scale(.75); }
+    100%  { -webkit-transform: rotate(360deg) translateX(160px) translateY(10px) rotate(-360deg) scale(1); }
+
+}
+
+@-webkit-keyframes animateJupiter {
+    0%  { -webkit-transform: rotate(0deg) translateX(200px) translateY(10px) rotate(0deg) scale(1); }
+    25%  { -webkit-transform: rotate(90deg) translateX(200px) translateY(10px) rotate(-90deg) scale(.75); }
+    50%  { -webkit-transform: rotate(180deg) translateX(200px) translateY(10px) rotate(-180deg) scale(.60); }
+    75%  { -webkit-transform: rotate(270deg) translateX(200px) translateY(10px) rotate(-270deg) scale(.75); }
+    100%  { -webkit-transform: rotate(360deg) translateX(200px) translateY(10px) rotate(-360deg) scale(1); }
+
+}
+
+@-webkit-keyframes animateSaturn {
+    0%  { -webkit-transform: rotate(0deg) translateX(240px) translateY(10px) rotate(0deg) scale(1); }
+    25%  { -webkit-transform: rotate(90deg) translateX(240px) translateY(10px) rotate(-90deg) scale(.75); }
+    50%  { -webkit-transform: rotate(180deg) translateX(240px) translateY(10px) rotate(-180deg) scale(.60); }
+    75%  { -webkit-transform: rotate(270deg) translateX(240px) translateY(10px) rotate(-270deg) scale(.75); }
+    100%  { -webkit-transform: rotate(360deg) translateX(240px) translateY(10px) rotate(-360deg) scale(1); }
+
+}
+
+@-webkit-keyframes animateUranus {
+    0%  { -webkit-transform: rotate(0deg) translateX(280px) translateY(10px) rotate(0deg) scale(1); }
+    25%  { -webkit-transform: rotate(90deg) translateX(280px) translateY(10px) rotate(-90deg) scale(.75); }
+    50%  { -webkit-transform: rotate(180deg) translateX(280px) translateY(10px) rotate(-180deg) scale(.60); }
+    75%  { -webkit-transform: rotate(270deg) translateX(280px) translateY(10px) rotate(-270deg) scale(.75); }
+    100%  { -webkit-transform: rotate(360deg) translateX(280px) translateY(10px) rotate(-360deg) scale(1); }
+
+}
+
+@-webkit-keyframes animateNeptune {
+    0%  { -webkit-transform: rotate(0deg) translateX(320px) translateY(10px) rotate(0deg) scale(1); }
+    25%  { -webkit-transform: rotate(90deg) translateX(320px) translateY(10px) rotate(-90deg) scale(.75); }
+    50%  { -webkit-transform: rotate(180deg) translateX(320px) translateY(10px) rotate(-180deg) scale(.60); }
+    75%  { -webkit-transform: rotate(270deg) translateX(320px) translateY(10px) rotate(-270deg) scale(.75); }
+    100%  { -webkit-transform: rotate(360deg) translateX(320px) translateY(10px) rotate(-360deg) scale(1); }
+
+}
+
+@-webkit-keyframes animatePluto {
+    0%  { -webkit-transform: rotate(0deg) translateX(360px) translateY(10px) rotate(0deg) scale(1); }
+    25%  { -webkit-transform: rotate(90deg) translateX(360px) translateY(10px) rotate(-90deg) scale(.75); }
+    50%  { -webkit-transform: rotate(180deg) translateX(360px) translateY(10px) rotate(-180deg) scale(.60); }
+    75%  { -webkit-transform: rotate(270deg) translateX(360px) translateY(10px) rotate(-270deg) scale(.75); }
+    100%  { -webkit-transform: rotate(360deg) translateX(360px) translateY(10px) rotate(-360deg) scale(1); }
+
+}
